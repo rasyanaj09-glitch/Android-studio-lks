@@ -44,7 +44,7 @@ public class home extends AppCompatActivity {
 
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.16.139.25:81/koneksi_icikiwir/")
+                .baseUrl("http://10.0.2.2:81/koneksi_icikiwir/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

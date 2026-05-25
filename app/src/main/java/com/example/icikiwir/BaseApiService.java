@@ -27,7 +27,7 @@ public interface BaseApiService {
             @Field("Password") String password
     );
 
-    // TAMBAHKAN INI UNTUK MENGAMBIL DATA PRODUK
+
     @GET("get_produk.php")
     Call<List<MenuModel>> getSemuaMenu();
 

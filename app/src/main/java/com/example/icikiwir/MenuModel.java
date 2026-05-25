@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class MenuModel {
 
-    // @SerializedName harus sama persis dengan nama kolom di database kamu
+
     @SerializedName("Id")
     private int id;
 
